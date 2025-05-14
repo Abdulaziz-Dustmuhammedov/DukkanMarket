@@ -1,0 +1,86 @@
+/*  */
+
+/* .logo {
+  width: 150px;
+  height: 30px;
+} */
+.header {
+  width: 100%;
+}
+.logotip {
+  width: 300px;
+}
+
+.header-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1b9111;
+}
+
+.form {
+  width: 500px;
+  height: 48px;
+  position: relative;
+  display: flex;
+}
+
+.form > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border: 2px solid #1db954;
+  border-radius: 8px;
+  padding: 10px 175px 10px 15px;
+  font-size: 16px;
+}
+
+.form > button {
+  position: absolute;
+  content: "";
+  right: 1px;
+  background-color: #1db954;
+  border: none;
+  outline: none;
+  padding: 12px 40px;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fa-solid {
+  position: absolute;
+  content: "";
+  right: 150px;
+  bottom: 15px;
+}
+
+.search-button {
+  background-color: #999595;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  color: green;
+  border: 2px solid salmon;
+  border-radius: 5px;
+  height: 25px;
+
+  right: 1px;
+  /* bottom: 0; */
+}
+
+.search-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+}
+
+.fa-solid {
+  font-weight: 900;
+  color: rgb(0, 255, 42);
+}
