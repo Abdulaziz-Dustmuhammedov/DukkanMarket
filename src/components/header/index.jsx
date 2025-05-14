@@ -27,7 +27,7 @@ const Header = () => {
                   <a href="">Biz haqimizda</a>
                 </li>
                 <li>
-                  <a href="mailto:t.me/Dusmukhamedov">Aloqa</a>
+                  <a href="t.me/Dusmukhamedov">Aloqa</a>
                 </li>
                 <li>
                   <a href="">Narxlar</a>
